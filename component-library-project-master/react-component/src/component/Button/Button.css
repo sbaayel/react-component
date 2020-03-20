@@ -1,0 +1,84 @@
+button {
+  border-radius: 2px;
+  padding: 5px 25px;
+}
+
+.primary{
+  background-color: transparent;
+  color: black;
+  border: 1px solid #33A0FF;
+}
+
+.danger {
+  background-color: transparent;
+  color: black;
+  border: 1px solid #FF4858;
+}
+
+.success {
+  background-color: transparent;
+  color: black;
+  border: 1px solid #0AD00A;
+}
+
+.default {
+  background-color: transparent;
+  color: black;
+  border: 1px solid #22262A;
+}
+
+.warning{
+  background-color: transparent;
+  color: black;
+  border: 1px solid #FFC600;
+}
+
+/* Button2 */
+
+.primary:hover  {
+  background-color: #2E90E5;
+  color: white;
+  border: #2E90E5;
+}
+
+.danger:hover {
+  background-color: #F53848;
+  color: white;
+  border: #F53848;
+}
+
+.success:hover {
+  background-color: #07C107; 
+  color: white;
+  border: #07C107;
+}
+
+.warning:hover{
+  background-color: #EBB600;
+  color: white;
+  border: #EBB600;
+}
+
+.default:hover {
+  background-color: black;
+  color: white;
+  border: black;
+}
+
+/* hover effects */
+
+.primary.danger.success.default.warning:active{
+  background-color: transparent;
+  color: white;
+  border: 2px;
+}
+
+.primary2.danger2.success2.default2.warning2:active{
+  background-color: transparent;
+  color: white;
+  border: 2px;
+}
+.primary2 .danger2 .success2 .default2 .warning2{
+  width: 300px;
+  height: 71px;
+}
