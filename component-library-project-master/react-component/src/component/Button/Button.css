@@ -1,39 +1,39 @@
-button {
+Button {
   border-radius: 2px;
   padding: 5px 25px;
 }
 
-.primary{
-  background-color: transparent;
+/* .primary{
+  background-color: #33A0FF;
   color: black;
   border: 1px solid #33A0FF;
 }
 
 .danger {
-  background-color: transparent;
+  background-color: #FF4858;
   color: black;
   border: 1px solid #FF4858;
 }
 
 .success {
-  background-color: transparent;
+  background-color: #0AD00A;
   color: black;
   border: 1px solid #0AD00A;
 }
 
 .default {
-  background-color: transparent;
+  background-color: #22262A;
   color: black;
   border: 1px solid #22262A;
 }
 
 .warning{
-  background-color: transparent;
+  background-color: #FFC600;
   color: black;
   border: 1px solid #FFC600;
 }
 
-/* Button2 */
+
 
 .primary:hover  {
   background-color: #2E90E5;
@@ -65,20 +65,90 @@ button {
   border: black;
 }
 
-/* hover effects */
 
-.primary.danger.success.default.warning:active{
+
+.primary, .danger, .success, .default, .warning, :active{
   background-color: transparent;
-  color: white;
-  border: 2px;
+  color: black;
+  border: 1px solid;
+} */
+
+
+
+
+
+
+.primary2{
+  background-color: #33A0FF;
+  color: black;
+  border: 1px solid #33A0FF;
+  
 }
 
-.primary2.danger2.success2.default2.warning2:active{
-  background-color: transparent;
-  color: white;
-  border: 2px;
+.danger2 {
+  background-color: #FF4858;
+  color: black;
+  border: 1px solid #FF4858;
+  
 }
-.primary2 .danger2 .success2 .default2 .warning2{
-  width: 300px;
-  height: 71px;
+
+.success2 {
+  background-color: #0AD00A;
+  color: black;
+  border: 1px solid #0AD00A;
+  
+}
+
+.default2 {
+  background-color: #22262A;
+  color: black;
+  border: 1px solid #22262A;
+  
+}
+
+.warning2{
+  background-color: #FFC600;
+  color: black;
+  border: 1px solid #FFC600;
+  
+}
+
+/* Button hover  */
+
+.primary2:hover  {
+  background-color: #2E90E5;
+  color: white;
+  border: #2E90E5;
+}
+
+.danger2:hover {
+  background-color: #F53848;
+  color: white;
+  border: #F53848;
+}
+
+.success2:hover {
+  background-color: #07C107; 
+  color: white;
+  border: #07C107;
+}
+
+.warning2:hover{
+  background-color: #EBB600;
+  color: white;
+  border: #EBB600;
+}
+
+.default2:hover {
+  background-color: black;
+  color: white;
+  border: black;
+}
+
+/* button click effects */
+
+.primary2, .danger2, .success2, .default2, .warning2, :active{
+  background-color: transparent;
+  color: black;
+  
 }

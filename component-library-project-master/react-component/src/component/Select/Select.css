@@ -1,0 +1,23 @@
+label {
+  display: block;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+.select-small {
+  width: 130px;
+  height: 20px;
+  background-color: white;
+  border: 1px solid lightgrey;
+}
+.select-medium {
+  width: 200px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid lightgrey;
+}
+.select-large {
+  width: 200px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid lightgrey;
+}

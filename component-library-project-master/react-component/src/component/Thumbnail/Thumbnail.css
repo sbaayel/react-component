@@ -1,0 +1,9 @@
+.hoverImage {
+  display: none;
+}
+.mainImage:hover {
+  display:none;
+}
+.mainImage:hover ~ .hoverImage {
+  display: block;
+}
